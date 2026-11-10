@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="relation-schema" name="릴레이션 스키마">
+    <mxGraphModel grid="1" gridSize="10" page="1" pageWidth="1400" pageHeight="730">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="개인 운동 기록 관리 시스템 — 릴레이션 스키마" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=30;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="180" y="25" width="1040" height="60" />
+        </mxCell>
+        <mxCell id="label0" value="회원 릴레이션" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="20" y="140" width="190" height="64" />
+        </mxCell>
+        <mxCell id="cell0_0" value="&lt;u&gt;회원번호&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="220" y="140" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell0_1" value="로그인 아이디" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="395" y="140" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell0_2" value="비밀번호 해시" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="140" width="175" height="74" />
+        </mxCell>
+        <mxCell id="label1" value="운동종목 릴레이션" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="20" y="250" width="190" height="64" />
+        </mxCell>
+        <mxCell id="cell1_0" value="&lt;u&gt;종목번호&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="220" y="250" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell1_1" value="등록회원번호" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#DBEAFE;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="395" y="250" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell1_2" value="운동명" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="250" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell1_3" value="운동부위" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="745" y="250" width="175" height="74" />
+        </mxCell>
+        <mxCell id="label2" value="운동기록 릴레이션" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="20" y="360" width="190" height="64" />
+        </mxCell>
+        <mxCell id="cell2_0" value="&lt;u&gt;기록번호&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="220" y="360" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell2_1" value="회원번호" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#DBEAFE;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="395" y="360" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell2_2" value="종목번호" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#DBEAFE;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="360" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell2_3" value="운동날짜" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="745" y="360" width="175" height="74" />
+        </mxCell>
+        <mxCell id="label3" value="세트기록 릴레이션" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="20" y="470" width="190" height="64" />
+        </mxCell>
+        <mxCell id="cell3_0" value="&lt;u&gt;세트기록번호&lt;/u&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="220" y="470" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell3_1" value="기록번호" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#DBEAFE;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="395" y="470" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell3_2" value="세트번호" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="570" y="470" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell3_3" value="중량(kg)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="745" y="470" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell3_4" value="반복횟수" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="920" y="470" width="175" height="74" />
+        </mxCell>
+        <mxCell id="cell3_5" value="세트 전&lt;br&gt;휴식시간(초)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1095" y="470" width="175" height="74" />
+        </mxCell>
+        <mxCell id="legend" value="밑줄 = 기본키     |     파란 칸 = 외래키(다른 릴레이션을 연결하는 속성)" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="200" y="600" width="1100" height="35" />
+        </mxCell>
+        <mxCell id="restnote" value="휴식시간은 세트 시작 전의 값이며, 첫 세트나 미측정 값은 비워 둠. 화면에는 분과 초로 표시함." style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="80" y="570" width="1240" height="30" />
+        </mxCell>
+        <mxCell id="note" value="※ 기본 제공 운동종목은 등록회원번호를 비워 둘 수 있습니다." style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontColor=#222222;strokeColor=#333333;strokeWidth=1.5;fillColor=#FFFFFF;text;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="200" y="650" width="1100" height="35" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
